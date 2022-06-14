@@ -20,7 +20,7 @@ def French_To_English():
 @app.route("/")
 def renderIndexPage():
     # Write the code to render template
-    return render_template('index.html')
+    return render_template('/home/project/xzceb-flask_eng_fr/final_project/templates/index.html')
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
